@@ -11,9 +11,9 @@
 
 ## The project
 
-**Letmeask is a fully interactive live Q&A platform**, perfect for streamers/content creators and their audience.
+[Letmeask](https://letmeask-fb2ab.firebaseapp.com) is a **fully interactive live Q&A platform**, perfect for streamers/content creators and their audience.
 
-By accessing the application as a room creator, you can receive questions in real time, highlight a question, mark as answered or delete any question and close the room whenever you want.
+By accessing the application as a room creator, you can receive questions in real time, highlight a question, mark as answered, delete any question and close the room whenever you want.
 
 On the user's side it is possible to enter an existing room, send questions in real time and also able to like other questions.
 
@@ -23,11 +23,12 @@ This is a project developed during the [NLW#6 Together](https://nextlevelweek.co
 
 ## Layout
 
-<p align="center">
-  <img alt="App screenshot" title="Screenshot" src=".github/assets/home_screenshot.png" width="100%">
-</p>
+<div align="center">
+  <img alt="Home screenshot" src=".github/home_screenshot.png" width="100%"><br/>
+  <img alt="Room screenshot" src=".github/room_screenshot.png" width="100%">
+</div><br/>
 
-You can view the official layout made by Rocketseat by [clicking here](https://www.figma.com/file/u0BQK8rCf2KgzcukdRRCWh/Letmeask/duplicate). You must have a [Figma](https://figma.com) account.
+[Click here](https://www.figma.com/file/u0BQK8rCf2KgzcukdRRCWh/Letmeask/duplicate) to view the official layout made by Rocketseat. You must have a [Figma](https://figma.com) account.
 
 ---
 
@@ -37,6 +38,7 @@ You can view the official layout made by Rocketseat by [clicking here](https://w
 - Typescript
 - SASS
 - Firebase
+- React Hot Toast
 
 ---
 
