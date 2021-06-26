@@ -23,6 +23,14 @@
                 }
             }
         }
+
+        @media screen and (max-width: 768px) {
+            overflow: hidden;
+      
+            .content {
+                max-width: 950px;
+            }
+        }
     }
 
     main {
@@ -48,6 +56,11 @@
                 color: #fff;
                 font-weight: 500;
                 font-size: 14px;
+            }
+
+            @media screen and (max-width: 768px){
+                display: flex;
+                justify-content: center;
             }
         }
 
@@ -92,7 +105,7 @@
                     color: #737380;
                     font-weight: 500;
 
-                    button {
+                    a {
                         background: transparent;
                         border: 0;
                         color: #835afd;

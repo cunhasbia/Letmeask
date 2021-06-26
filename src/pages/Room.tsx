@@ -1,5 +1,5 @@
 import { FormEvent, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 
 import logoImg from '../assets/images/logo.svg';
 
@@ -88,7 +88,7 @@ export function Room() {
                                 <span>{user.name}</span>
                             </div>
                         ) : (
-                            <span>Para enviar uma pergunta, <button>faça seu login</button></span>
+                            <span>Para enviar uma pergunta, <Link to="/">faça seu login</Link></span>
                         )}
                         <Button type="submit" disabled={!user}>
                             Enviar pergunta
