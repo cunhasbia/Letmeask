@@ -1,46 +1,65 @@
-# Getting Started with Create React App
+<h1 align="center">
+  <img alt="Letmeask" title="Letmeask" src="./src/assets/images/logo.svg" />
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <a href="#the-project">The project</a>&nbsp;&nbsp;•&nbsp;&nbsp;
+  <a href="#layout">Layout</a>&nbsp;&nbsp;•&nbsp;&nbsp;
+  <a href="#technologies-and-tools">Technologies</a>&nbsp;&nbsp;•&nbsp;&nbsp;
+  <a href="#how-to-run-the-project">How to run?</a>
+</p>
 
-## Available Scripts
+## The project
 
-In the project directory, you can run:
+**Letmeask is a fully interactive live Q&A platform**, perfect for an interaction between a streamer/content creator and their audience.
 
-### `yarn start`
+By accessing the application as a room creator, you can receive questions in real time, highlight a question, mark as answered or delete any question and close the room whenever you want.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+On the user's side it is possible to enter an existing room, send questions in real time and also able to like other questions.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+This is a project developed during the [NLW#6 Together](https://nextlevelweek.com), from June 20th to 27th, 2021.
 
-### `yarn test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Layout
 
-### `yarn build`
+<p align="center">
+  <img alt="App screenshot" title="Screenshot" src=".github/assets/home_screenshot.png" width="100%">
+</p>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+You can view the official layout made by Rocketseat by [clicking here](https://www.figma.com/file/u0BQK8rCf2KgzcukdRRCWh/Letmeask/duplicate). You must have a [Figma](https://figma.com) account.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Technologies and tools
 
-### `yarn eject`
+- React
+- Typescript
+- SASS
+- Firebase
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+---
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## How to run the project?
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Before start, install [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/) and [Yarn](https://classic.yarnpkg.com/en/docs/install/#windows-stable) on your machine. Moreover, recommend use the [VSCode](https://code.visualstudio.com/) terminal.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```bash
+# Clone this repository
+$ git clone https://github.com/cunhasbia/Letmeask.git
 
-## Learn More
+# Access the repository on your terminal
+$ cd Letmeask
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Install dependencies
+$ yarn
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Run the project
+$ yarn start
+
+# The app will be running on your browser at http://localhost:3000
+```
+Need help? Failed to run? Feel free to contact me.
+
+---
+<p align="center">Made with :orange_heart: by Bianca Cunha | Find me on <a href="https://www.linkedin.com/in/biancascunha">LinkedIn</a></p>

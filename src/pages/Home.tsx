@@ -1,5 +1,6 @@
 import { FormEvent, useState } from 'react';
 import { useHistory } from 'react-router-dom';
+import toast from 'react-hot-toast';
 
 import illustrationImg from '../assets/images/illustration.svg';
 import logoImg from '../assets/images/logo.svg';
@@ -28,18 +29,19 @@ export function Home() {
         event.preventDefault();
 
         if (roomCode.trim() === '') {
+            toast.error('Preencha o código da sala para entrar');
             return;
         }
 
         const roomRef = await database.ref(`rooms/${roomCode}`).get();
 
         if (!roomRef.exists()) {
-            alert('Room does not exists.');
+            toast.error('Sala não encontrada');
             return;
         }
 
         if (roomRef.val().endedAt) {
-            alert('Room already closed.');
+            toast.error('Esta sala foi encerrada');
             return;
         }
 

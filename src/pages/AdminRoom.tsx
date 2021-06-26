@@ -26,11 +26,13 @@ export function AdminRoom() {
     const { title, questions } = useRoom(roomId);
 
     async function handleEndRoom() {
-        await database.ref(`rooms/${roomId}`).update({
-            endedAt: new Date(),
-        });
+        if (window.confirm('Deseja mesmo encerrar esta sala?')) {
+            await database.ref(`rooms/${roomId}`).update({
+                endedAt: new Date(),
+            });
 
-        history.push('/');
+            history.push('/');
+        }
     }
 
     async function handleDeleteQuestion(questionId: string) {
