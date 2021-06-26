@@ -11,7 +11,7 @@
 
 ## The project
 
-**Letmeask is a fully interactive live Q&A platform**, perfect for an interaction between a streamer/content creator and their audience.
+**Letmeask is a fully interactive live Q&A platform**, perfect for streamers/content creators and their audience.
 
 By accessing the application as a room creator, you can receive questions in real time, highlight a question, mark as answered or delete any question and close the room whenever you want.
 
